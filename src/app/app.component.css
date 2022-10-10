@@ -1,0 +1,68 @@
+* {
+  font-family: Verdana, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+#heading {
+  text-align: center;
+  background-color: lightgray;
+  padding: 1rem;
+  box-shadow: 0 1px 4px gray;
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+}
+#footer {
+  background-color: whitesmoke;
+  height: 3rem;
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+}
+h2 {
+  font-weight: 200;
+}
+.container {
+  width: 600px;
+  margin: 10rem auto;
+}
+
+::ng-deep pre {
+  background-color: whitesmoke;
+  padding: 3rem 1rem 2rem;
+  border: 2px solid lightgray;
+  margin-top: -2rem;
+  animation: example 2s;
+}
+@keyframes example {
+  from {
+    background-color: transparent;
+    color: transparent;
+  }
+  to {
+    background-color: whitesmoke;
+  }
+}
+
+::ng-deep button {
+  font-size: 1rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 0 0 1rem;
+  border: 2px solid lightgray;
+  cursor: pointer;
+  font-weight: bold;
+}
+ol.toc > li {
+  color: darkslategray;
+  font-size: 1.2rem;
+}
+ol.toc > li > a {
+  text-decoration: none;
+  color: darkgray;
+}
+ol.toc > li > a:hover {
+  color: lightgray;
+  transition: 0.5s;
+}
